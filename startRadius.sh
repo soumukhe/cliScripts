@@ -34,3 +34,5 @@ az vm list -d -o table
 echo $(date), $USER, Started RadiusServer 
 #
 secs_to_human "$(($(date +%s) - ${start}))"
+cd ../azurerm-vmmain
+terraform output
