@@ -14,7 +14,7 @@ secs_to_human() {
         secs=$(echo ${secs}*60|bc|awk '{print int($1+0.5)}')
     fi
     echo "***********************************************************************************"
-    echo "Time Elapsed to Run Stop Azure Infra Script : ${min} minutes and ${secs} seconds."
+    echo "Time Elapsed to Run Stop Radius Server Script : ${min} minutes and ${secs} seconds."
     echo "***********************************************************************************"
 }
 start=$(date +%s)
