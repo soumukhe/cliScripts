@@ -1,5 +1,6 @@
 #!/bin/bash
 
+source ./sourceMeAzInfraVars.sh 
 
 
 secs_to_human() {
